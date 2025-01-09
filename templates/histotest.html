@@ -1,15 +1,14 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Histogramme</title>
+    <title>Histotest</title>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
   </head>
   <body>
     <div id="chart_div"></div>
     <script>
       google.charts.load('current', { packages: ['corechart'] });
-      google.charts.setOnLoadCallback(drawBackgroundColor);
-     function drawBackgroundColor() {
+      google.charts.setOnLoadCallback(drawChart); {
     function drawChart(data) {
     // Convertir les données récupérées en un tableau utilisable par Google Charts
     google.visualization.arrayToDataTable();
