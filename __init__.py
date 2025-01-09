@@ -30,6 +30,10 @@ def mongraphique():
 @app.route("/histogramme/")
 def monhistogramme():
     return render_template("histogramme.html")
+
+@app.route("/histotest/")
+def montest():
+    return render_template("histotest.html")
                                                                                                                                        
 @app.route('/')
 def hello_world():
