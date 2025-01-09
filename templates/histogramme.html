@@ -6,9 +6,9 @@
       google.charts.setOnLoadCallback(drawChart);
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
-          ['Dinosaur', 'Length'],
-          ['Acrocanthosaurus (top-spined lizard)', 12.2],
-          ['Albertosaurus (Alberta lizard)', 9.1],
+          ['Température', 'Date'],
+          ['10.6°',30/01/2017],
+          ['9.12',31/01/2017],
           ['Allosaurus (other lizard)', 12.2],
           ['Apatosaurus (deceptive lizard)', 22.9],
           ['Archaeopteryx (ancient wing)', 0.9],
@@ -37,7 +37,7 @@
           ['Velociraptor (swift robber)', 1.8]]);
 
         var options = {
-          title: 'Lengths of dinosaurs, in meters',
+          title: 'Historique des températures à Tawarano',
           legend: { position: 'none' },
         };
 
